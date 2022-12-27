@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="D:/ideaWorkspace/TestHomePage(failed)" verbose="0">
+    <classes>
+      <class name="webFormTesting.WebFormTest">
+        <methods>
+          <include name="signUpAndLoginInvalidFields"/>
+          <include name="closeBrowser"/>
+          <include name="uncheckedRememberMeCheckBox"/>
+          <include name="clearCookieAndLocalStorage"/>
+        </methods>
+      </class> <!-- webFormTesting.WebFormTest -->
+    </classes>
+  </test> <!-- D:/ideaWorkspace/TestHomePage(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
