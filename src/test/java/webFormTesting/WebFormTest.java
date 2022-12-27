@@ -63,7 +63,6 @@ public class WebFormTest extends BaseTest {
         Assert.assertEquals(counter, emailValue1.length);
     }
 
-
     @Test
     public void checkedRememberMeCheckBox() {
         basePage.open(HOME_PAGE);
